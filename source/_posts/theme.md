@@ -1,5 +1,5 @@
 title: how to add a theme
-author: John Doe
+author: yorkmass
 tags:
   - theme
 categories: []
