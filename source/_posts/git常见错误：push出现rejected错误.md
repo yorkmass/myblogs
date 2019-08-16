@@ -9,7 +9,6 @@ categories:
   - git
 date: 2019-08-16 18:07:00
 ---
-
 ### git常见错误：push出现rejected错误
 
 ***
@@ -32,7 +31,7 @@ git commit -m '完成'
 git push origin master
 ```
 错误如下:<br>
-![报错](https://img-blog.csdnimg.cn/20181220223926993 "git报错")
+![报错](/img/small/p011.png "git报错")
 <br>
 可使用-f参数强制push,解决这个问题<br>
 ```
@@ -60,10 +59,8 @@ git commit -m '完成'
 git push origin master
 ```
  这回就没有报错了！<br>
- ![截图](https://img-blog.csdnimg.cn/20190428193526866.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2OTQ5MTc2,size_16,color_FFFFFF,t_70 "报错")
+ ![截图](/img/small/p012.png "报错")
  <br>
  发生以上问题的原因，是这两个项目都不一样，一个是本地项目，一个是远程项目，必须要强制合并。
 
 所以，以后我们应该在远程仓库新建一个空项目，然后使用git clone克隆这个项目到本地，git clone会自动初始化本地仓库环境。然后再把我们的代码粘贴进去，然后再add再commit提交，最后push到远程仓库。
-
-
