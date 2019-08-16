@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "11"
+install:
+  - npm install
+script:
+  - hexo g
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "yorkmass"
+  - git config user.email "1458510486@qq.com"
+  - git add -A
+  - git commit -m "init"
+  - git push --force "https://github.com/yorkmass/myblogs.git" "master:gh-pages"
+branches:
+  only:
+    - master
