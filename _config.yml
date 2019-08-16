@@ -78,4 +78,9 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type:git
+  repository:git@github.com:yorkmass/yorkmass.github.io.git
+  branch:master
+ 
+admin:
+  deployCommand:'hexo-pubish.bat'
