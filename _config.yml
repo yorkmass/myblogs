@@ -79,7 +79,7 @@ theme: clover
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:git
-  repository:git@github.com:yorkmass/yorkmass.github.io.git
+  repository:https://github.com/yorkmass/yorkmass.github.io.git
   branch:master
  
 admin:
