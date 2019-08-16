@@ -12,7 +12,7 @@ after_script:
   - git config user.email "1458510486@qq.com"
   - git add -A
   - git commit -m "init"
-  - git push --force "https://github.com/yorkmass/myblogs.git" "master:gh-pages"
+  - git push --force "https://${TOKEN}@github.com/yorkmass/yorkmass.github.io.git" "master:gh-pages"
 branches:
   only:
     - master
