@@ -4,6 +4,7 @@ date: 2019-08-17 14:56:11
 tags:
 ---
 #### 使用hexo在github上面搭建个人博客
+***
 [可参考CSDN教程](https://blog.csdn.net/qq_36949176/article/details/99684455)
 我们需要在电脑上安装git和npm
 <br>Linux系统最为方便，直接装git和npm就好了
@@ -75,5 +76,3 @@ Name写TOKEN，VALUE写刚才在github生成的key，粘贴进去即。BRANCH填
 然后我们切换到Current栏，点击Start，开始执行代码，执行成功之后如图所示
 <br>![github05](/img/small/p025.png "github")
 执行完成之后，它会在你的yorkmass.github.io仓库发布一系列hexo的静态页面， 然后我们通过github用户名.github.io就可以进行访问了，如：[https://yorkmass.github.io](https://yorkmass.github.io)
-
-
