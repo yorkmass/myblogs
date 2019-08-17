@@ -1,7 +1,8 @@
 title: Vue项目EsLint校验‘DO NOT USE 'NEW' FOR SIDE EFFECTS’解决方案
 author: Yaoyi
-date: 2019-08-17 15:38:49
-tags:
+tags: []
+categories: []
+date: 2019-08-17 15:38:00
 ---
 ##### Vue项目EsLint校验‘DO NOT USE 'NEW' FOR SIDE EFFECTS’解决方案
 ***
@@ -47,3 +48,5 @@ new Vue({
   template: '<App/>'
 })
 ```
+Vue 挺好使的
+![vue](/img/small/p041.jpg "vue")
